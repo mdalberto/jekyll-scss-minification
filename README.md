@@ -13,3 +13,11 @@ $ gem install bundler
 $ bundle install
 
 $ jekyll serve              //runs the server
+
+create new branch 'gh-pages'
+
+$ git push origin --delete gh-pages
+
+$ git subtree push --prefix public origin gh-pages
+
+
